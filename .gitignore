@@ -1,0 +1,65 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Test artifacts
+test-results/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.webm
+*.trace
+*.zip
+
+# Playwright
+.playwright/
+/Playwright/.playwright-artifacts-*
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Build output
+dist/
+build/
+target/
+out/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+.cache/
+
+# Java (if needed in future)
+*.class
+*.jar
+*.log
+
+# Misc
+.history/
+.prettierignore
+output_*.txt
